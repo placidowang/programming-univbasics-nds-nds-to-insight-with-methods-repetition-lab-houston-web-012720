@@ -54,15 +54,6 @@ def total_gross(source)
   
   directors = list_of_directors(source)
   
-  #raul
-  # d_totals = directors_totals(source)
-
-  # directors.each do | d, index |
-  #   d_totals[d]
-  # end
-  
-  # pp directors
-  
   d_totals = directors_totals(source)
   
   i = 0
@@ -92,18 +83,3 @@ end
   
 #   return total
 # end
-
-# def get_gross_total(director_totals)
-  
-# end
-
-# total_gross(directors_database)
-# p get_gross_total({"Stephen Spielberg"=>1357566430,
-# "Russo Brothers"=>2281002470,
-# "James Cameron"=>2571020373,
-# "Spike Lee"=>256624217,
-# "Wachowski Siblings"=>806180282,
-# "Robert Zemeckis"=>1273838385,
-# "Quentin Tarantino"=>662738268,
-# "Martin Scorsese"=>636812242,
-# "Francis Ford Coppola"=>509719258})
